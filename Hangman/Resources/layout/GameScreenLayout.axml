@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:id="@+id/linearLayout1"
+    p1:layout_height="wrap_content"
+    p1:layout_width="match_parent">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="40dip"
+        p1:id="@+id/linearLayout3">
+        <TextView
+            p1:text="Current Score"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView1"
+            p1:layout_weight="30" />
+        <TextView
+            p1:text="Turns Left"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView1"
+            p1:layout_width="wrap_content"
+            p1:layout_weight="30" />
+        <Button
+            p1:text="New Game"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/btnNewGame"
+            p1:layout_weight="30" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="40dip"
+        p1:id="@+id/linearLayout4">
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:id="@+id/txtCurrentScore"
+            p1:layout_height="wrap_content"
+            p1:layout_weight="30"
+            p1:layout_width="wrap_content" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:id="@+id/txtGuessesLeft"
+            p1:layout_height="wrap_content"
+            p1:layout_weight="33"
+            p1:layout_width="wrap_content" />
+        <Button
+            p1:text="Main Menu"
+            p1:layout_height="match_parent"
+            p1:id="@+id/gamebtnMainMenu"
+            p1:layout_width="wrap_content"
+            p1:layout_weight="7" />
+    </LinearLayout>
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:id="@+id/imgHangman"
+        p1:layout_width="match_parent"
+        p1:layout_height="200dip"
+        p1:layout_marginRight="0.0dp" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/txtWordToGuess" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/linearLayout2"
+        p1:layout_width="match_parent"
+        p1:layout_height="45dp"
+        p1:paddingLeft="20dip"
+        p1:paddingRight="20dip"
+        p1:layout_weight="100"
+        p1:layout_marginLeft="5dip">
+        <Button
+            p1:text="A"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnA"
+            p1:layout_width="40dip"
+            p1:layout_marginLeft="5dip"
+            p1:layout_marginRight="5dip" />
+        <Button
+            p1:text="B"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnB"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="C"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnC"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="D"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnD"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="E"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnE"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="F"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnF"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="10dip"
+            p1:layout_marginLeft="10dip" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/linearLayout2"
+        p1:layout_width="match_parent"
+        p1:layout_height="45dp"
+        p1:paddingLeft="20dip"
+        p1:paddingRight="20dip"
+        p1:layout_weight="100"
+        p1:layout_marginLeft="5dip">
+        <Button
+            p1:text="G"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnG"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="H"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnH"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="I"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnI"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="J"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnJ"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="K"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnK"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="L"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnL"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="10dip"
+            p1:layout_marginLeft="10dip" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/linearLayout2"
+        p1:layout_width="match_parent"
+        p1:layout_height="45dp"
+        p1:paddingLeft="20dip"
+        p1:paddingRight="20dip"
+        p1:layout_weight="100"
+        p1:layout_marginLeft="5dip">
+        <Button
+            p1:text="M"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnM"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="N"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnN"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="O"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnO"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="P"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnP"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="Q"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnQ"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="R"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnR"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="10dip"
+            p1:layout_marginLeft="10dip" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/linearLayout2"
+        p1:layout_width="match_parent"
+        p1:layout_height="45dp"
+        p1:paddingLeft="20dip"
+        p1:paddingRight="20dip"
+        p1:layout_weight="100"
+        p1:layout_marginLeft="5dip">
+        <Button
+            p1:text="S"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnS"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="T"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnT"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="U"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnU"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="V"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnV"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="W"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnW"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="X"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnX"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="10dip"
+            p1:layout_marginLeft="10dip" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/linearLayout2"
+        p1:layout_width="match_parent"
+        p1:layout_height="45dip"
+        p1:layout_weight="100"
+        p1:paddingLeft="140dip">
+        <Button
+            p1:text="Y"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnY"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+        <Button
+            p1:text="Z"
+            p1:layout_height="match_parent"
+            p1:id="@+id/btnZ"
+            p1:layout_width="40dip"
+            p1:layout_marginRight="5dip"
+            p1:layout_marginLeft="5dip" />
+    </LinearLayout>
+</LinearLayout>
